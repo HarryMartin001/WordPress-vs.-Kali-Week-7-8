@@ -6,7 +6,7 @@ Time spent: 7 hours spent in total
 
 ## Pen Testing Report
 
-### 1. (Required) Vulnerability Name or ID
+### 1. (Required) Authenticated Stored Cross-Site Scripting (XSS) ID: CVE-2015-5622
 
 - [ ] Summary: 
   - Vulnerability types:XSS
@@ -18,7 +18,7 @@ Time spent: 7 hours spent in total
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
-### 2. (Required) Vulnerability Name or ID
+### 2. (Required) Authenticated Cross-Site Scripting (XSS) via Media File Metadata ID: CVE-2017-6814
 
 - [ ] Summary: 
   - Vulnerability types:XSS
@@ -30,7 +30,7 @@ Time spent: 7 hours spent in total
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-### 3. (Required) Vulnerability Name or ID
+### 3. (Required) Large File Upload Error XSS ID: CVE-2017-9061
 
 - [ ] Summary: 
   - Vulnerability types:XSS
@@ -81,7 +81,7 @@ GIFs created with  ...
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+no challenges for all work
 
 ## License
 
