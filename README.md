@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pen Testing
 
-Time spent: **X** hours spent in total
+Time spent: 7 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -9,33 +9,36 @@ Time spent: **X** hours spent in total
 ### 1. (Required) Vulnerability Name or ID
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
+  - Vulnerability types:XSS
+  - Tested in version:4.2
+  - Fixed in version:4.2.3
+- [ ] GIF Walkthrough: ![GIF 1](https://user-images.githubusercontent.com/111730072/200039607-7967c8c4-7d34-4c86-99d6-abe9540e142e.gif)
+
+- [ ] Steps to recreate: The following code demonstrates the vulnerability. It should be entered in a page or posting using the HTML edit mode
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
 ### 2. (Required) Vulnerability Name or ID
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
+  - Vulnerability types:XSS
+  - Tested in version:4.2
+  - Fixed in version: 4.2.13
+- [ ] GIF Walkthrough: ![GIF 2](https://user-images.githubusercontent.com/111730072/200040030-b05d342f-3809-4624-99d0-abf56b525e2b.gif)
+
+- [ ] Steps to recreate: Upload MP3 file to the Media Library (as Editor or Administrator) and Insert an Audio Playlist in a Post containing this MP3
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
 ### 3. (Required) Vulnerability Name or ID
 
 - [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
+  - Vulnerability types:XSS
+  - Tested in version:4.2
+  - Fixed in version: 4.2.115
+- [ ] GIF Walkthrough: ![GIF 3 ](https://user-images.githubusercontent.com/111730072/200040383-c923feb2-56ff-4707-a0d3-039816ffd5ec.gif)
+
+- [ ] Steps to recreate: An attacker can inject a malicious script in to the filename which a victim tries to upload leading to XSS inside the administrators control panel
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
