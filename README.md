@@ -1,12 +1,12 @@
 # Project 7 - WordPress Pen Testing
 
-Time spent: 7 hours spent in total
+Time spent: 12 hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
 ## Pen Testing Report
 
-### 1. (Required) Authenticated Stored Cross-Site Scripting (XSS) ID: CVE-2015-5622
+### 1.  Authenticated Stored Cross-Site Scripting (XSS) ID: CVE-2015-5622
 
 - [ ] Summary: 
   - Vulnerability types:XSS
@@ -18,7 +18,7 @@ Time spent: 7 hours spent in total
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
   
-### 2. (Required) Authenticated Cross-Site Scripting (XSS) via Media File Metadata ID: CVE-2017-6814
+### 2.  Authenticated Cross-Site Scripting (XSS) via Media File Metadata ID: CVE-2017-6814
 
 - [ ] Summary: 
   - Vulnerability types:XSS
@@ -30,7 +30,7 @@ Time spent: 7 hours spent in total
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-### 3. (Required) Large File Upload Error XSS ID: CVE-2017-9061
+### 3.  Large File Upload Error XSS ID: CVE-2017-9061
 
 - [ ] Summary: 
   - Vulnerability types:XSS
@@ -42,27 +42,7 @@ Time spent: 7 hours spent in total
 - [ ] Affected source code:
   - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
-### 4. (Optional) Vulnerability Name or ID
 
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-### 5. (Optional) Vulnerability Name or ID
-
-- [ ] Summary: 
-  - Vulnerability types:
-  - Tested in version:
-  - Fixed in version: 
-- [ ] GIF Walkthrough: 
-- [ ] Steps to recreate: 
-- [ ] Affected source code:
-  - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
